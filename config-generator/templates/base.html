@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TreeLink Config Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-8 text-center">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">TreeLink Config Generator</h1>
+            <p class="text-gray-600">Fill out the form to generate your TreeLink configuration</p>
+        </header>
+        
+        <main class="bg-white rounded-lg shadow-md p-6 max-w-3xl mx-auto">
+            {% block content %}{% endblock %}
+        </main>
+        
+        <footer class="mt-8 text-center text-gray-500 text-sm">
+            <p>Generated configuration for <a href="https://github.com/trevortylerlee/treelink" class="text-blue-500 hover:underline" target="_blank">TreeLink</a></p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
