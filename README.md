@@ -1,3 +1,16 @@
+Adjustable by a config that you can download via https://treelink.app/
+
+See the `site-config.zip`
+
+But it does not allow for live updates (unless we plug a flask app):
+
+![Treelink App](treelink.png)
+
+> Explored it [here](https://jalcocert.github.io/JAlcocerT/cool-link-in-bios/) 
+
+---
+
+
 ![treelink-cover](https://github.com/user-attachments/assets/b3f947d2-9533-45d7-864a-8a7d29b02148)
 
 ---

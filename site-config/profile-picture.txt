@@ -1,0 +1,1 @@
+There was an error exporting your profile picture. Please manually add it to your project in /src/assets. It should be a square jpg file named "profile-picture.jpg".

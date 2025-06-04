@@ -1,0 +1,26 @@
+{
+  "name": "Trevor Tyler Lee",
+  "bio": "Free, open source Linktree alternative built with Astro & Tailwind CSS",
+  "profilePicture": "/profile-picture.jpg",
+  "url": "https://trevortylerlee.com",
+  "blog": true,
+  "iconLinks": [
+    {
+      "id": "1728534577184",
+      "icon": "link",
+      "url": "https://boogerbuttcheeks.com"
+    }
+  ],
+  "customLinks": [
+    {
+      "id": "1728534585738",
+      "title": "🍌 donkey kong country on the snes",
+      "url": "https://youtu.be/7hgr-ZuzXng?si=v3dr9mu2cBL_D4ED"
+    },
+    {
+      "id": "1728534585742",
+      "title": "♥ Donate",
+      "url": "https://donate.stripe.com/aEU6ow7VEf7u7sseUU"
+    }
+  ]
+}
